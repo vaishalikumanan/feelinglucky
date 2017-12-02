@@ -47,7 +47,7 @@ $(document).ready(function() {
 
 	      //Output values
 	      var courseName = document.getElementById("courseName");
-	     var courseTitle = document.getElementById("courseTitle");
+	      var courseTitle = document.getElementById("courseTitle");
 	      var courseDes = document.getElementById("courseDes");
 
 	      courseName.textContent = courseCode.toUpperCase() + "" + json.data[random].catalog_number;
