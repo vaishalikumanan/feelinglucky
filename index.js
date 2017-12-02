@@ -36,7 +36,11 @@ tryagain.addEventListener("click", function() {
     
   }, true);
 
-
+$("#keyword").keyup(function(event) {
+    if (event.keyCode === 13) {
+        $("#submit").click();
+    }
+});
 function getCourses(courseCode){
   var courseAPI = "https://api.uwaterloo.ca/v2/courses/" + courseCode + ".json?key=c8a3cf45a8addd718daa0a5877da23cc";
   $.getJSON(courseAPI, function (json) {
