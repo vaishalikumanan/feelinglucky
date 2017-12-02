@@ -59,7 +59,9 @@ input[type=button], input[type=submit], input[type=reset] {
   
 #result{
   text-align: center;
-  margin: -150px 0px 0px 0px;
+    width: 50%;
+    margin: auto;
+    margin-top: -220px;
   visibility: hidden;
 }
 
