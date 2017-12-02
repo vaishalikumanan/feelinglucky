@@ -1,4 +1,4 @@
-$(window).on('load', function() {
+$(document).ready(function() {
 	var submit = document.getElementById("submit");
 
 	//Onclick
